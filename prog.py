@@ -8,4 +8,4 @@ files.sort(key=os.path.getmtime, reverse=True)
 latest_files = files[:5]
 
 for file in files[5:]:
-    os.remove(file).
+    os.remove(file)
